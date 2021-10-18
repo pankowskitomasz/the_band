@@ -1,28 +1,14 @@
-$backdrop__filter: blur(10px) contrast(50%);
-$bg__blend--soft: multiply;
-$bg__classes:
-    "error",
-    "comingsoon",
-    "privacy";
-$bg__comingsoon-img: "../img/concert.jpg";
-$bg__error-img: "../img/concert.jpg";
+$bg__coming-img: "../img/coming.jpg";
+$bg__error-img: "../img/error.jpg";
 $bg__privacy-img: "../img/privacy.jpg";
-$bg__aoa:
+$bg__classes:
+    "coming",
+    "error",
+    "privacy";
+$bg__img-arr: 
+    $bg__coming-img,
     $bg__error-img,
-    $bg__comingsoon-img,
     $bg__privacy-img;
-$body__min-height: 100%;
-$color__bg-1: #666;
-$color__shadow: #000;
-$color__container-bg: #fff;
-$font-logo__family: 'Roboto';
-$font-logo__size: 24px;
-$font-main__family: 'Roboto';
-$font-main__size: 16px;
-$header__height: 78px;
-$section__min-height: 100vh;
-$text__shadow: 1px 1px 4px $color__shadow;
-$theme-colors: (
-  "primary": #ff025a,
-  "secondary": #ffd544
-);
+$color__shadow: #333;
+$footer__height: 41px;
+$text-shadow: 1px 1px 3px $color__shadow; 
