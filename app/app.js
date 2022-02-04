@@ -1,6 +1,10 @@
 var appCfg ={
     navRoutes:[        
-        {navItem:true, path:"/",name:"Home",view:"app/views/comingsoon.html"},
+        {navItem:true, path:"/",name:"Home",view:"app/views/index.html"},
+        {navItem:true, path:"/tour",name:"Tour",view:"app/views/tour.html"},
+        {navItem:true, path:"/tickets",name:"Tickets",view:"app/views/tickets.html"},
+        {navItem:true, path:"/about",name:"Home",view:"app/views/about.html"},
+        {navItem:false, path:"/comingsoon",name:"Comingsoon",view:"app/views/comingsoon.html"},
         {navItem:true, path:"/contact",name:"Contact",view:"app/views/contact.html"},
         {navItem:true, path:"/login",name:"<span class='fa fa-user'></span>",view:"app/views/login.html",backLink:"/register"},
         {navItem:false, path:"/register",name:"Register",view:"app/views/register.html",backLink:"/login"},
